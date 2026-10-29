@@ -1,0 +1,40 @@
+[package]
+name = "lr2_rust"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "lr2_rust"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rpn"
+path = "bin/rpn.rs"
+
+[[bin]]
+name = "set_task"
+path = "bin/set_task.rs"
+
+[[bin]]
+name = "turtles"
+path = "bin/turtles.rs"
+
+[[bin]]
+name = "histogram"
+path = "bin/histogram.rs"
+
+[[bin]]
+name = "huffman"
+path = "bin/huffman.rs"
+
+[[bin]]
+name = "benchmark"
+path = "bin/benchmark.rs"
+
+[[bin]]
+name = "isomorphic"
+path = "bin/isomorphic.rs"
+
+[[bin]]
+name = "lfu"
+path = "bin/lfu.rs"

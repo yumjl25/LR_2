@@ -1,0 +1,3 @@
+SETADD myset 
+SETADD myset apple
+SETADD myset orange
